@@ -1,0 +1,40 @@
+.cv{
+	width: 780px;
+	margin: auto;
+
+}
+body{
+	background-image: url("fond_cv.png");
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 780px;
+}
+
+.profil{
+	margin-left: 150px;
+	padding-left: 250px;
+}
+.box1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.sec-droite{
+	padding-right: 150px;
+}
+
+.box2{
+	display: flex;
+	justify-content: space-between;
+}
+.box3{
+	display: flex;
+	justify-content: space-between;
+}
+.fonction{
+	text-align: justify;
+}
+.descriptif{
+	text-align: justify;
+}
