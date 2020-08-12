@@ -1,25 +1,35 @@
 .cv{
 	width: 780px;
+	height: 960px;
 	margin: auto;
-
 }
 body{
 	background-image: url("fond_cv.png");
 	background-color: #FFFFFF;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 930px, 580px;
+	background-size: 880px 1200px;
 }
 
 .profil{
 	margin-left: 150px;
+	margin-top: -10px;
 	padding-left: 250px;
 }
-.box1{
+h3{
+	margin-left: 30px;
+}
+.box1, .box2, .box3{
 	display: flex;
 	justify-content: space-between;
 }
-.sec-gauche{
+.p1{
+	text-indent: -10px;
+}
+.p3{
+	text-indent: 20px;
+}
+.p4{
 	text-indent: 50px;
 }
 
@@ -31,19 +41,24 @@ body{
 	text-indent: 20px;
 	border-color: blue;
 }
-
-
-.box2{
-	display: flex;
-	justify-content: space-between;
+.aide:: first-letter{
+	color: #0000FF;
 }
-.box3{
-	display: flex;
-	justify-content: space-between;
+.p{
+	line-height: 1;
 }
-.fonction{
-	text-align: justify;
+.dates{
+	margin-left: 250px;
+	margin-top: 2px;
+	line-height: 3.5;
 }
-.descriptif{
+.titre{
+	padding-right: 100px;
+}
+.diplomes{
+	text-align: left;
+	margin-right: 60px;
+}
+.fonction, .descriptif{
 	text-align: justify;
 }
