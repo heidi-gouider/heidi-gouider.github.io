@@ -32,8 +32,11 @@ h3{
 .p4{
 	text-indent: 50px;
 }
+#sec-gauche{
 
-.sec-droite{
+}
+
+#sec-droite{
 	padding-right: 150px;
 }
 .aide{
